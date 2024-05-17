@@ -25,3 +25,4 @@ Twilio-powered PHP Jukebox application that allows users to listen to a selectio
 - **$baseURL**: The base URL where all music files and `jukebox.php` are located.
 - **$title**: The welcome message played to users when they call.
 - **$songs**: An associative array of available songs. Each entry has a key (digit) and a value containing the song file name and description.
+- **$voice**: The twilio txt to speech voice to use, see available choices [here](https://www.twilio.com/docs/voice/twiml/say/text-speech#available-voices-and-languages).
